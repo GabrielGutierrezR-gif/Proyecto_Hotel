@@ -3,6 +3,12 @@
   <ItemGroup>
     <ProjectReference Include="..\Hotel_Dominio\Hotel_Dominio.csproj" />
     <ProjectReference Include="..\Hotel_Utilitarios\Hotel_Utilitarios.csproj" />
+    <ProjectReference Include="..\Hotel_AccesoDatos\Hotel_AccesoDatos.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="11.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.23.0" />
   </ItemGroup>
 
   <PropertyGroup>
